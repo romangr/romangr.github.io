@@ -47,7 +47,7 @@ The following rule catches all failures of StepFunctions executions:
 
 All these events can be collected in a queue and then sent to reprocessing via Lambda function.
 
-{% drawio path="assets/step-functions/approach1_1.xml" page_number=0 height=350 %}
+![](/assets/step-functions/approach1_diagram.png)
 
 1. Some input event starts a new StepFunctions execution. Execution fails.
 2. Execution state change event is sent to an SQS queue via EventBridge rule.
@@ -59,7 +59,7 @@ All these events can be collected in a queue and then sent to reprocessing via L
 
 Briefly this approach described on [StackOverflow](https://stackoverflow.com/a/54174323){:target="_blank"}.
 
-{% drawio path="assets/step-functions/approach2_1.xml" page_number=0 height=500 %}
+![](/assets/step-functions/approach2_diagram.png)
 
 Here you can see a DLQ to collect the failed messages and a lambda function to restart the StepFunctions. Let's see what happens here step by step:
 

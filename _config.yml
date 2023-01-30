@@ -33,7 +33,6 @@ github_username: romangr
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-drawio
 
 google_analytics: G-65YG0YHMS7
 
