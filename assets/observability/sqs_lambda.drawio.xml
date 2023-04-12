@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="ac.draw.io" modified="2023-04-12T09:12:13.893Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="8OPJqlG4hOB_o2D5jVXI" version="21.1.4" type="embed">
+  <diagram id="s14YE5FiYptphlZ_bpfe" name="Page-1">
+    <mxGraphModel dx="2195" dy="1547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xWAEe4c_6g5nd9EW-Qds-3" value="1" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-869.9999999999998" y="-180" width="20.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#545B64;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" parent="1" source="IbazmBWFcTN3CueWbY7w-1" target="IbazmBWFcTN3CueWbY7w-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#545B64;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" parent="1" source="IbazmBWFcTN3CueWbY7w-1" target="IbazmBWFcTN3CueWbY7w-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-970" y="-70" />
+              <mxPoint x="-970" y="-70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#545B64;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" parent="1" source="IbazmBWFcTN3CueWbY7w-2" target="IbazmBWFcTN3CueWbY7w-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-930" y="-70" />
+              <mxPoint x="-930" y="-70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#545B64;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" parent="1" source="IbazmBWFcTN3CueWbY7w-2" target="IbazmBWFcTN3CueWbY7w-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-2" value="AWS SQS DLQ" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="-47" width="78" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-3" value="AWS Lambda function" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-170" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-16" value="AWS CloudWatch Alarm" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.alarm;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="70" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-17" value="2" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1010.6899999999998" y="-80" width="20.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-19" value="3" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1010.6899999999998" y="30" width="20.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-20" value="4" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-911.9999999999998" y="-80" width="20.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IbazmBWFcTN3CueWbY7w-1" value="AWS SQS queue" style="sketch=0;outlineConnect=0;fontColor=default;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.queue;labelBackgroundColor=default;spacingBottom=0;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="-990" y="-170" width="78" height="47" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

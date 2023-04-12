@@ -3,6 +3,7 @@ layout: post
 title:  "DLQ for AWS StepFunctions"
 date:   2023-01-29 17:33:08 +0200
 categories: aws stepfunctions
+description: Implementing DLQ approach to handle errors in AWS StepFunctions executions
 ---
 
 ### What is DLQ?

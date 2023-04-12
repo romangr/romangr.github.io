@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="ac.draw.io" modified="2023-04-12T09:22:10.718Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="dGdu255_PzuoLXbkxykV" version="21.1.4" type="embed">
+  <diagram id="ReKqpi6zjz0vtycX4xgc" name="Page 1">
+    <mxGraphModel dx="1876" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;fontSize=14;strokeColor=#545B64;startArrow=none;endFill=1;strokeWidth=2;" parent="1" source="oNSFEIVkQscJuUzqRdCv-1" target="oNSFEIVkQscJuUzqRdCv-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#545B64;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontColor=default;startArrow=none;endArrow=block;endFill=1;" parent="1" source="oNSFEIVkQscJuUzqRdCv-1" target="oNSFEIVkQscJuUzqRdCv-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-690" y="-290" />
+              <mxPoint x="-690" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-1" value="AWS Step Functions workflow" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_step_functions_workflow;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="-490" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-2" value="&lt;div&gt;AWS Lambda Function&lt;/div&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-684" y="-420" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;fontSize=14;strokeColor=#545B64;startArrow=none;endFill=1;strokeWidth=2;" parent="1" source="oNSFEIVkQscJuUzqRdCv-2" target="oNSFEIVkQscJuUzqRdCv-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-660" y="-440" />
+              <mxPoint x="-616" y="-440" />
+              <mxPoint x="-616" y="-396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-8" value="1" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-608" y="-431" width="20.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-9" value="AWS CloudWatch Alarm" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#B0084D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.alarm;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="-444" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-17" value="2" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-500" y="-440" width="20.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-23" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#545B64;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontColor=default;startArrow=none;endArrow=block;endFill=1;" parent="1" source="oNSFEIVkQscJuUzqRdCv-21" target="oNSFEIVkQscJuUzqRdCv-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-630" y="-290" />
+              <mxPoint x="-630" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-21" value="AWS DLQ mechanism" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-24" value="3" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-720" y="-300" width="20.69" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oNSFEIVkQscJuUzqRdCv-25" value="4" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-620.69" y="-300" width="20.69" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
