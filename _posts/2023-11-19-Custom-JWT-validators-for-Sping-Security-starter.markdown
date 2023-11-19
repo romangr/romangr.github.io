@@ -28,4 +28,4 @@ Starting from Spring Boot 3.2.0 it's not an issue anymore. Because now you can a
   }
 ```
 
-Spring Security provides easy to configure `JwtClaimValidator` class for this, that accepts claim name and a function to validate claim's actual value.
+Spring Security provides easy to configure `JwtClaimValidator` class for this. It accepts a claim name and a function to validate claim's actual value.
