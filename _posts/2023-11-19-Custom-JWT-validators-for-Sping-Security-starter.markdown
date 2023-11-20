@@ -40,12 +40,12 @@ In that case, to add the validation we should declare a bean the following way:
 
 ```java
   @Bean
-public JwtClaimValidator<String> customJwtClaimValidator(){
+  public JwtClaimValidator<String> customJwtClaimValidator() {
     return new JwtClaimValidator<>(
-    "claimName",
-    actualValue->"expectedValue".equals(actualValue)
+        "claimName",
+        actualValue -> "expectedValue".equals(actualValue)
     );
-    }
+  }
 ```
 
 In this example we validate that claim `claimName` has value equal to `expectedValue`, otherwise the token is considered
