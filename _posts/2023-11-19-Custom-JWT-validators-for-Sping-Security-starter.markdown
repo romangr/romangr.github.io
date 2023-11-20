@@ -21,9 +21,9 @@ Starting from Spring Boot 3.2.0 it's not an issue anymore. Because now you can a
 Spring Security configuration simply by adding validator beans to your context. The beans should be of type 
 `OAuth2TokenValidator<Jwt>`.
 
-Spring Security provides several implementations for `OAuth2TokenValidator` interface, one of them is 
-`JwtClaimValidator`. It accepts a claim name and a function to validate claim's actual value.
-Let's imagine we need to validate that some JWT claim has some predefined static value. Here is an example for this case:
+As an example let's consider a case where we need to add a custom JWT claim validation.
+Spring Security provides a suitable `JwtClaimValidator` class that implements `OAuth2TokenValidator` interface.
+In that case, to add the validation we should declare a bean the following way:
 
 ```java
   @Bean
